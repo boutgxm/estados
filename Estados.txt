@@ -1,0 +1,33 @@
+Estado,Temperatura,Humedad,Costo_Alojamiento,Costo_Transporte,Dias_Promedio,Tiempo_Traslado
+Aguascalientes,24,45,900,500,3,4
+Baja California,28,40,1200,1500,5,24
+Baja California Sur,30,50,1800,2000,5,28
+Campeche,29,70,1100,1300,4,12
+Chiapas,26,80,800,1200,5,14
+Chihuahua,22,35,950,1400,4,10
+Ciudad de Mexico,20,60,1300,300,3,1
+Coahuila,27,30,900,1200,4,9
+Colima,28,65,1400,1000,4,6
+Durango,23,40,850,1100,4,8
+Estado de Mexico,19,55,1000,200,3,1
+Guanajuato,24,50,950,400,3,3
+Guerrero,30,75,1500,900,5,6
+Hidalgo,21,60,850,300,3,2
+Jalisco,26,55,1200,700,4,5
+Michoacan,25,65,900,600,4,4
+Morelos,27,70,1100,300,3,2
+Nayarit,29,75,1400,1200,5,7
+Nuevo Leon,28,45,1300,800,4,6
+Oaxaca,27,70,900,900,5,8
+Puebla,22,65,1000,400,4,3
+Queretaro,23,50,1100,400,3,3
+Quintana Roo,31,80,2000,1800,6,20
+San Luis Potosi,24,50,900,700,4,5
+Sinaloa,30,65,1200,1300,5,10
+Sonora,32,30,1100,1500,5,18
+Tabasco,29,85,900,1000,4,12
+Tamaulipas,28,60,1000,900,4,9
+Tlaxcala,21,60,800,300,3,2
+Veracruz,28,80,1100,700,5,6
+Yucatan,30,75,1300,1500,5,16
+Zacatecas,22,40,850,800,4,6

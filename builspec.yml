@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Instalando dependencias
+
+  build:
+    commands:
+      - echo Build en proceso
+
+  post_build:
+    commands:
+      - echo Subiendo archivo a S3
+      - aws s3 cp estados.json s3://estados-paola
