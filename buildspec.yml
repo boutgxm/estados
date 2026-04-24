@@ -12,9 +12,9 @@ phases:
 
   post_build:
     commands:
-      - echo "Subiendo archivo a S3..."
-      - ls
-      - aws s3 cp estados.json s3://estados-paola/estados.json
+      - echo "Running deploy script"
+      - chmod +x deploy.sh
+      - ./deploy.sh
 
 artifacts:
   files:
