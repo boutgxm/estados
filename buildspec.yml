@@ -3,13 +3,19 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Instalando dependencias"
+      - echo "Instalando..."
 
   build:
     commands:
-      - echo "Build en proceso"
+      - echo "Ejecutando script..."
+      - python main.py
 
   post_build:
     commands:
-      - echo "Subiendo archivo a S3"
-      - aws s3 cp estados.json s3://estados-paola
+      - echo "Subiendo archivo a S3..."
+      - ls
+      - aws s3 cp estados.json s3://estados-paola/estados.json
+
+artifacts:
+  files:
+    - '**/*'
